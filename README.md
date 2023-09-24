@@ -70,6 +70,11 @@ where `μ` is the location parameter and `σ > 0` is the scale parameter. Accord
 ## Usage
 
 ```javascript
+import variance from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal-variance@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-lognormal-variance/tags). For example,
+
+```javascript
 import variance from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal-variance@v0.1.0-esm/index.mjs';
 ```
 
@@ -135,7 +140,7 @@ y = variance( 0.0, -1.0 );
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import variance from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal-variance@v0.1.0-esm/index.mjs';
+import variance from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal-variance@esm/index.mjs';
 
 var sigma;
 var mu;
