@@ -70,7 +70,7 @@ where `μ` is the location parameter and `σ > 0` is the scale parameter. Accord
 ## Usage
 
 ```javascript
-import variance from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal-variance@deno/mod.js';
+import variance from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal-variance@v0.2.2-deno/mod.js';
 ```
 
 #### variance( mu, sigma )
@@ -130,7 +130,7 @@ y = variance( 0.0, -1.0 );
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import variance from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal-variance@deno/mod.js';
+import variance from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal-variance@v0.2.2-deno/mod.js';
 
 var sigma;
 var mu;
