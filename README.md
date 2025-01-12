@@ -246,7 +246,7 @@ int main( void ) {
     int i;
 
     for ( i = 0; i < 25; i++ ) {
-        mu = random_uniform( 0.0, 10.0 ) - 5.0;
+        mu = random_uniform( -5.0, 5.0 );
         sigma = random_uniform( 0.0, 20.0 );
         y = stdlib_base_dists_lognormal_variance( mu, sigma );
         printf( "µ: %lf, σ: %lf, Var(X;µ,σ): %lf\n", mu, sigma, y );
@@ -304,7 +304,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
