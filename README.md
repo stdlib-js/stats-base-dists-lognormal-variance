@@ -70,7 +70,7 @@ where `μ` is the location parameter and `σ > 0` is the scale parameter. Accord
 ## Usage
 
 ```javascript
-import variance from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal-variance@deno/mod.js';
+import variance from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal-variance@v0.3.0-deno/mod.js';
 ```
 
 #### variance( mu, sigma )
@@ -131,7 +131,7 @@ y = variance( 0.0, -1.0 );
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import variance from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal-variance@deno/mod.js';
+import variance from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal-variance@v0.3.0-deno/mod.js';
 
 var opts = {
     'dtype': 'float64'
